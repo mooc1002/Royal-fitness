@@ -1,5 +1,6 @@
 let spNav = document.querySelector('.sp-nav');
-let bar = document.querySelectorAll('.nav-bar');//ループするの忘れない
+let body = document.querySelector('body');
+let bar = document.querySelectorAll('.nav-bar');
 
 let nav = document.querySelector('nav');
 
@@ -10,11 +11,6 @@ spNav.addEventListener('click',function(){
    }
   
    nav.classList.toggle('show');
+   body.classList.toggle('show');
 })
 
-//slidemenuにクラスをつけて出現
-
-
-//for(let i = 0; i <= 3; i++){
-//    bar.classList.add('shoe');
-//}

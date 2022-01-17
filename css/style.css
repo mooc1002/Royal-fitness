@@ -4,6 +4,10 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+body.show {
+  overflow: hidden;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,7 +136,9 @@ header .slide-menu ul li {
           justify-content: center;
 }
 
-.intro h2 {
+.intro p {
+  margin: 20px auto;
+  font-size: 12px;
   line-height: 2;
   text-align: center;
   font-weight: lighter;
@@ -648,7 +654,7 @@ footer p {
   }
   .corse .tile-area .tile {
     width: 80%;
-    margin: 0 auto;
+    margin: 30px auto;
   }
   .corse .ps {
     margin: 0;

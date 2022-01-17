@@ -2,6 +2,10 @@ body {
     margin: 0;
     font-family: 'Mate SC', serif;
     -webkit-text-size-adjust: 100%;
+
+    &.show {
+        overflow: hidden;
+    }
 }
 
 
@@ -123,7 +127,9 @@ header {
     display: flex;
     justify-content: center;
 
-    & h2 {
+    & p {
+        margin: 20px auto;
+        font-size: 12px;
         line-height: 2;
         text-align: center;
         font-weight: lighter;
@@ -661,7 +667,7 @@ footer {
 
             & .tile {
                 width: 80%;
-                margin: 0 auto;
+                margin: 30px auto;
 
             }
         }
